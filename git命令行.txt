@@ -1,3 +1,9 @@
 git checkout -b dev
 git branch dev
 git checkout dev
+//创建新的分支，并切换到新建的分支上
+
+...在新建的分支上进行一系列的操作，和并分支
+git marge dev
+将兴建的分支合并到master分支
+git branch -d dev
