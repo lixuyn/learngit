@@ -8,6 +8,7 @@ git marge dev
 将兴建的分支合并到master分支
 git branch -d dev
 
+<<<<<<< HEAD
 //分支冲突的问题
 git  checkout -b feature1
 在分支上对文件进行操作，保持提交
@@ -16,3 +17,10 @@ git checkout master
 切换到master分支对文件进行操作并提交，
 git merge feature1
 合并分支将会产生冲突
+=======
+//分支冲突的问题
+>>>>>>> feature1
+
+。。。。。。。。。。。。。
+git 用===和>>>>分别表示不同分支的冲突，我们修改留下我们需要的
+。。。。。。。。。。。。
