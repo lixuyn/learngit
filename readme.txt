@@ -40,6 +40,7 @@ Resources：
 可以将Map和model和ModelMap类型数据作为目标方法的参数
 	BindingAwareModelMap
 
+Spring 支持REST风格的请求
 
 
 @SessionAtributes可以放在类上边可以将数据放入其中，供多个类使用
