@@ -36,11 +36,13 @@ Resources：
 @CookieValue
 
 使用POJO对象绑定请求参数
-此处有问题！！！
+
+//此处有问题！！！
 可以将Map和model和ModelMap类型数据作为目标方法的参数
 	BindingAwareModelMap
 
 Spring 支持REST风格的请求
+REST风格的请求是通过将post请求做进一步封装而成，通过在表单中添加一个隐藏域，并给这些隐藏域一个特定的值，就能够将post请求转化成rest风格的请求【get put delete post】
 
 
 @SessionAtributes可以放在类上边可以将数据放入其中，供多个类使用
